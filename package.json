@@ -13,7 +13,7 @@
     "Babel",
     "Webpack5"
   ],
-  "author": "Anastasios Orfanidis",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "react": "^17.0.2",
