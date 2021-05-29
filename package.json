@@ -1,0 +1,37 @@
+{
+  "name": "js-react-env-webpack-5",
+  "version": "1.0.0",
+  "description": "Javascript React Env with Webpack 5 and Babel",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "Javascript",
+    "React",
+    "Babel",
+    "Webpack5"
+  ],
+  "author": "Anastasios Orfanidis",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "eslint-loader": "^4.0.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
